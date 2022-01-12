@@ -37,7 +37,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 1.07em;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -65,12 +65,13 @@ table {
 }
 
 @font-face {
-    font-family: 'opendyslexic';
-    src: url(./assets/opendyslexic/OpenDyslexic-Regular.otf);}
+    font-family: 'GiveYouGlory';
+    src: url(./assets/GiveYouGlory/GiveYouGlory.ttf);}
 
 *
 {
-  font-family: 'opendyslexic';
+  font-family: 'GiveYouGlory';
+  color: #4169E1;
 }
 .app 
   {
