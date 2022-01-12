@@ -2,7 +2,7 @@
   <div class="home">
     <header>
     <div>
-    <a href="http://localhost:8080/portfolio/src/assets/CV Clea Le Roux.pdf" download>
+    <a href="https://github.com/Cpasklaire/Portfolio/blob/main/src/assets/CV-Clea-Le-Roux.pdf" download>
       <h2>A Post-it</h2>
       <p>Buy milk!</p>
     </a>
