@@ -75,6 +75,7 @@ table {
 .app 
   {
     background-image: url("./assets/paper-texture.jpg");
-    object-fit: cover;
+    background-position: center;
+    background-size: cover;
   }
 </style>
