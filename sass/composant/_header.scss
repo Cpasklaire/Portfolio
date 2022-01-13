@@ -1,40 +1,3 @@
-<template>
-  <div class="home">
-    <header>
-      <div class="postit">
-        <a href="../assets/CV-Clea-Le-Roux.pdf" download>
-          <h3>Télécharger mon CV !</h3>
-          <p>Format PDF</p>
-        </a>
-      </div>
-
-      <div class="presentation">
-        <h1>Cléa Le Roux</h1>
-        <h2>Developeur Web</h2>
-      </div>
-    </header>
-
-    <div class="body">
-      <Ocr/>
-    </div>
-  </div>
-</template>
-
-<script>
-import Ocr from './Ocr.vue'
-
-export default {
-  name: 'Home',
-  components:{
-    Ocr,
-  },
-
-  props: {
-  }
-}
-</script>
-
-<style lang="scss" scoped>
 header
 {
   display: flex;
@@ -79,4 +42,3 @@ header
   background-size: 100%;
   background-repeat: no-repeat;
 }
-</style>
