@@ -10,82 +10,22 @@
     align-items: center;
     flex-direction: row;        
     }
-}
-.groupomania {
     h4 {
-        color: white;
+        color: $couleur-primaire;
         text-align: center;
         padding-top: 10%;
         padding-bottom: 10%;
-        background-image: url("../assets/trait2.png");
-        background-position: center;
-        background-size: 30%;
-        background-repeat: no-repeat;
-    }
-    img {
-        width: 100px;
-    }
-}
-.hot {
-    h4 {
-        color: white;
-        text-align: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        background-image: url("../assets/trait2.png");
-        background-position: center;
-        background-size: 30%;
-        background-repeat: no-repeat;
-    }
-}
-.orinoco {
-    h4 {
-        color: white;
-        text-align: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        background-image: url("../assets/trait2.png");
-        background-position: center;
-        background-size: 30%;
-        background-repeat: no-repeat;
-    }
-}
-.chouette {
-    h4 {
-        color: white;
-        text-align: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        background-image: url("../assets/trait2.png");
-        background-position: center;
-        background-size: 30%;
-        background-repeat: no-repeat;
-    }
-}
-.homyfood {
-    h4 {
-        color: white;
-        text-align: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        background-image: url("../assets/trait2.png");
-        background-position: center;
-        background-size: 30%;
-        background-repeat: no-repeat;
-    }
-}
-.reservia {
-    h4 {
-        color: white;
-        text-align: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        background-image: url("../assets/trait2.png");
         background-position: center;
         background-size: 30%;
         background-repeat: no-repeat;
     }
         img {
         width: 40%;
+    }
+}
+
+.reservia {
+    h4 {
+        background-image: url("/../public/css/image/trait2.png");
     }
 }

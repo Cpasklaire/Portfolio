@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'GiveYouGlory';
-    src: url(./assets/GiveYouGlory/GiveYouGlory.ttf);}
+    src: url(/public/css/GiveYouGlory/GiveYouGlory.ttf);}
 
 *
 {
@@ -9,7 +9,7 @@
 }
 body
   {
-    background-image: url("./assets/paper-texture.jpg");
+    background-image: url("/public/css/image/paper-texture.jpg");
     background-position: center;
     background-size: cover;
   }
