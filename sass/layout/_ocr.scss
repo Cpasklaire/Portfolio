@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    flex-direction: row;        
+    flex-direction: row;     
     }
     h4 {
         color: $couleur-primaire;
@@ -21,6 +21,7 @@
     }
 
     article {
+        width: 700px;
         .tete {
             display: flex;
             align-items: center;
@@ -28,26 +29,48 @@
             background-position: center;
             background-size: 30%;
             background-repeat: no-repeat;
-            .tech {
-                display: flex;
-                flex-direction: row;
-            }
         }
         .projet {
             display: flex;
-            align-items: center;    
-            
-            img {
-                width: 100%;
+            align-items: center;
+            .site {   
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
             }
+                
+            .miniature {
+                img {
+                        width: 90%;
+                        height: 400px;
+                    }
+            } 
+            
             .apercu {
                 img {
                     width: 40%;
-                }}
+                }
+            }
         }
     }
 }
 
 video {
     width: 38%;
+}
+
+.plus {
+    flex-direction: row;  
+    background: turquoise;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    li {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+        
+    
 }
