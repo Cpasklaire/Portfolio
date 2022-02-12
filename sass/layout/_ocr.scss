@@ -16,47 +16,27 @@
         color: $couleur-primaire;
         text-align: center;
     }
-            .groupomania .tete {
-                background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/trait2.png");
-            }
-            .orinoco .tete {
-                background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/trait3.png");
-            }
-            .homyfood .tete {
-                background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/trait4.png");
-            }
-            .reservia .tete {
-                background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/trait.png");
-            }
     article {
-        width: 700px;
+        margin-top: 10%;
+        width: 50%;
         span {
             font-weight: bold;
-        }
-        .tete {
-            display: flex;
-            align-items: center;
-            flex-direction: column;        
-            background-position: center;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            height: 250px;
-            justify-content: center;
-
         }
         .projet {
             display: flex;
             align-items: center;
             .site {   
                 display: flex;
-                align-items: flex-start;
-                justify-content: center;
+                align-items: center;
+                justify-content: space-between;
+                align-content: center;
             }
                 
             .miniature {
                 img {
-                        width: 90%;
-                        height: 400px;
+                        width: 100%;
+                        height: 500px;
+                        
                     }
             } 
         }
