@@ -43,29 +43,40 @@ header
   }
   
   .cv {
-    background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/trait3.png");
+    background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/graph-paper-texture.jpg");
     background-position: center;
 
-    background-size: 110% 300%;
-    background-repeat: no-repeat;  
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 6%;
-    padding-right: 6%;
+    background-size: 50% ;  
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 
-    height: 450px;
+    height: 405px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border-radius: 20px;
+    box-shadow: $couleur-ombre 5px 10px 5px;
+    
     .competence {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
     }
-    p{
+    p, h2 {
+      
+      color: black;
+      font-family: $font-popup;
+
+    }
+    p {
       font-size: 20px;
+    }
+    h2 {
+      font-size: 30px;
     }
   }
 }
