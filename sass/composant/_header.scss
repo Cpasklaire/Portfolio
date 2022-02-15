@@ -11,10 +11,10 @@ header
       width: 30%;
       text-align: center;
       color: white;
-      padding-top: 4%;
+      padding-top: 5%;
       background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/trait3.png");
       background-position: center;
-      background-size: 100%;
+      background-size: 130%;
       background-repeat: no-repeat;  
     }
 
@@ -29,12 +29,16 @@ header
       -moz-transition:-moz-transform .4s ease-in-out;
       -o-transition:-o-transform .4s ease-in-out;
       -webkit-transition:-webkit-transform .4s ease-in-out;
-    
+        span {
+          white-space: nowrap;
+        }    
       &:hover, &:focus {
         -webkit-transform: scale(1.25);
         -moz-transform: scale(1.25);
         -o-transform: scale(1.25);
         position:relative;
+      
+
       }    
       img {
         width: 100%;
