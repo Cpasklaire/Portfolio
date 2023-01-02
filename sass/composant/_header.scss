@@ -1,86 +1,17 @@
-header
-{
+header {
+  background: $degrade;
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 2%;
-
-  .presentation {
-      display: flex;
-      justify-content: space-around;
-
-    h1 {
-      width: 30%;
-      text-align: center;
-      color: white;
-      padding-top: 5%;
-      background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/trait3.png");
-      background-position: center;
-      background-size: 130%;
-      background-repeat: no-repeat;  
-    }
-
-    .mail {
-      width: 10%;
-      text-decoration: none;
-      text-align: center;
-      -webkit-transform: rotate(9deg);
-      -o-transform: rotate(9deg);
-      -moz-transform:rotate(9deg);  
-      
-      -moz-transition:-moz-transform .4s ease-in-out;
-      -o-transition:-o-transform .4s ease-in-out;
-      -webkit-transition:-webkit-transform .4s ease-in-out;
-        span {
-          white-space: nowrap;
-        }    
-      &:hover, &:focus {
-        -webkit-transform: scale(1.25);
-        -moz-transform: scale(1.25);
-        -o-transform: scale(1.25);
-        position:relative;
-      
-
-      }    
-      img {
-        width: 100%;
-      }
-    }
-  }
-  
-  .cv {
-    background-image: url("https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/graph-paper-texture.jpg");
-    background-position: center;
-
-    background-size: 50% ;  
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
-
-    height: 405px;
+  .esprit{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    border-radius: 20px;
-    box-shadow: $couleur-ombre 5px 10px 5px;
-    
-    .competence {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 100%;
+    img {
+      width: 6%;
     }
-    p, h2 {
-      
-      color: black;
-      font-family: $font-popup;
-
-    }
-    p {
-      font-size: 20px;
-    }
-    h2 {
-      font-size: 30px;
+    h1 {
+      font-size: 4em;
     }
   }
 }

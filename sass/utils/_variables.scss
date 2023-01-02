@@ -1,11 +1,28 @@
-$couleur-primaire: #4169E1;
-$couleur-secondaire: #f70f0f;
-$couleur-tertiaire: #11d342; 
+@font-face {
+    font-family: 'cyberjunkies';
+    src: url(/./public/css/cyberjunkies/Cyberjunkies.ttf);
+}
+@font-face {
+    font-family: 'oxanium';
+    src: url(/./public/css/oxanium/Oxanium-Regular.ttf);
+}
+$font-titre: 'cyberjunkies';
+$font-texte: 'oxanium';
 
-
+$couleur-texte: #6ECBF5;
+$couleur-titrefonce: #C252E1;
+$couleur-titreclaire: #E0D9F6; 
+$couleur-fondclaire: #586AE2; 
+$couleur-fondfonce: #2A2356; 
 $couleur-ombre: rgb(129, 129, 129);
-$font-popup: 'Starjedi';
-$font-texte: 'GiveYouGlory';
+$degrade: linear-gradient(90deg, $couleur-titreclaire, $couleur-fondfonce);
 
-$degrade: linear-gradient(0deg, $couleur-primaire, $couleur-secondaire);
-
+*
+{
+  font-family: $font-texte;
+  color: $couleur-texte;
+}
+h1, h2, h3 {
+    font-family: $font-titre;
+    color: $couleur-titrefonce;  
+}

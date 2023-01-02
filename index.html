@@ -3,202 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/c30b777b7c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="public/css/style.css" />
-    <link rel="icon" href="public/css/image/paper-plane-regular.svg">
+    <link rel="icon" href="public/css/image/cerbere.png">
     <meta name="description" content="Cléa, developeur web">
     <title>Portfolio Cléa Le Roux</title>
 </head>
 
 <body>
     <header>
-      <div class="presentation">
-        <h1>Cahier de projet</h1>
-
-        <a class="mail" href="mailto:clea.leroux@hotmail.fr">
-          <span>Où m'écrire ?</span>
-          <img src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/mail.png" alt="Envoi un mail" >
-        </a>
+      <div class="esprit">
+        <img src="public/css/image/cerbere.png" alt="logo CerbéreCorp">
+        <h1>CerberCorp</h1>
       </div>
-
-      <div class="cv">
-        <h2>Qui suis-je ?</h2>
-        <p>
-          Bonjour et bienvenu. <br>
-          Je m'appelle Cléa Le Roux, developeur Web depuis descembre 2021.<br>
-          J’aime apprendre et comprendre ce qui m'a poussé vers le web, ce magnifique milieu en constante évolution.<br>
-          Mon coté créatif me pousse toujours plus loin dans le Front.
-        </p>
-        <div class="competence">
-          <div class="parcours">
-            <h2>Tout ça c'est bien mais mon parcours c'est quoi ?</h2>
-            <p>
-              Diplômé d'un niveau 4 en éucation canine en 2015, <br>jusqu'en 2017 en me spécialisant en éducation de chien d'assistance.<br>
-              De 2017 à 2021 j'ai fait du téléconseil dans différente entrerpsie, <br>majoritairement dans la santé, pour me sentir utile au près des gens.<br>
-              Et enfin decembre 2021, suite à une formation tant espéré, <br>je suis diplomé developpeur web par OpenClassRooms, un diplome de niveau 5.
-            </p>
-          </div>
-          <div class="maitrise">
-            <h2>Et concrétement je maitrice quoi ?</h2>
-            <p>
-              Je connais mes classique : HTML, CSS, Javascript et MySQL.<br>
-              Un peu de base de donné pour se souvenir : MongoDB.<br>
-              Du backend pour le fonctionnement : API REST, Express.<br>
-              La beauté et l'ergonomie du frontend : Sass, Bootstrap.<br>
-              Et des outils pour ce simplifier la vie : Node.js, Vue.js, WordPress.<br>
-              Enfin comme on ne travail jamais seul, des outils de gestion : github, Miro, Jira.
-            </p>
-          </div>
-        </div>
-        <p>
-          Aujourd'hui je cherche mon premier post de développeur web à plein temps.<br>
-          Et pourquoi pas chez vous ?
-        </p>
-      </div>
+      <nav>
+        <li><a href="templates/projets.html">Mes projets</a></li>
+        <li><a href="templates/contact.html">Me contacter</a></li>
+      </nav>
     </header>
 
-    <section class="ocr">
-
-        <div class="row">
-          <article class="groupomania">
-            <div class="tete">
-              <h4>Groupomania</h4>
-            </div>
-            <div class="projet">
-              <div class="site">
-                <a class="miniature" href="#popup-groupomania">
-                  <img src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/ocr/groupomania-tache.png" alt="Miniature Groupomania">
-                </a>              
-              </div>
-              <div id="popup-groupomania" class="overlay">
-                <div class="popup">
-                  <a class="close" href="#">&times;</a>
-                  <div class="apercu">
-                    <div class="titre">
-                      <h5>Création un réseau social d’entreprise</h5>    
-                      <a href="https://cpasklaire.github.io/CleaLeRoux_3_23062021/">Le github</a>
-                      <ul class="tech">
-                        <li>Vue.js</li>
-                        <li>Node.js</li>
-                        <li>Mysql</li>
-                      </ul>
-                    </div>
-                    <video controls src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/ocr/groupomania.mp4" alt="Site Groupomania" type="video/mp4">
-
-              </div>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="orinoco">
-            <div class="tete">
-              <h4>Orinoco</h4>
-            </div>
-            <div class="projet">
-              <div class="site">
-                <a class="miniature" href="#popup-orinoco">
-                  <img src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/ocr/orinoco-tache.png" alt="Miniature Orinoco">
-                </a>              
-              </div>
-              <div id="popup-orinoco" class="overlay">
-                <div class="popup">
-                  <a class="close" href="#">&times;</a>
-                  <div class="apercu">
-                    <div class="titre">
-                      <h5>Création un réseau social d’entreprise</h5>  
-                      <a href="https://cpasklaire.github.io/CleaLeRoux_3_23062021/">Le github</a>
-                      <ul class="tech">
-                        <li>HTML5</li>
-                        <li>Sass</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
-                        <li>Node.js</li>
-                      </ul>
-                    </div>
-                    <video controls src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/ocr/orinoco.mp4" alt="Site Orinoco" type="video/mp4">
-
-              </div>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="row">
-          <article class="homyfood">
-            <div class="tete">
-              <h4>Ho My Food !</h4>
-            </div>
-            <div class="projet">
-              <div class="site">
-                <a class="miniature" href="#popup-food">
-                  <img src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/ocr/food-tache.png" alt="Miniature Ho My Food !">
-                </a>              
-              </div>
-              <div id="popup-food" class="overlay">
-                <div class="popup">
-                  <a class="close" href="#">&times;</a>
-                  <div class="apercu">
-                    <div class="titre">
-                      <h5>Animations CSS</h5>
-                      <a href="https://cpasklaire.github.io/CleaLeRoux_3_23062021/">Le site</a>
-                      <ul class="tech">
-                        <li>HTML5</li>
-                        <li>Sass</li>
-                      </ul>
-                    </div>
-                    <video controls src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/ocr/food.mp4" alt="Site Ho My Food !" type="video/mp4">
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </article>
-
-          <article class="reservia">
-              <div class="tete">
-                <h4>Reservia</h4>  
-            </div>
-            <div class="projet">
-              <div class="site">
-                <a class="miniature" href="#popup-reservia">
-                  <img src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/ocr/reservia-tache.png" alt="Miniature Reservia">
-                </a>              
-              </div>
-              <div id="popup-reservia" class="overlay">
-                <div class="popup">
-                  <a class="close" href="#">&times;</a>
-                  <div class="apercu">
-                    <div class="titre">
-                      <h5>Transformation d'une maquette en site web</h5>     
-                      <a href="https://cpasklaire.github.io/CleaLeRoux_2_08062021/">Le site</a>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/Cpasklaire/Portfolio/main/public/css/image/ocr/reservia.png" alt="Site Reservia">
-                    <ul class="tech">
-                      <li>HTML5</li>
-                      <li>CSS</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="row plus">
-          <h5>Les plus : <br></h5>
-            <div class="hot">
-              <a href="https://github.com/Cpasklaire/CleaLeRoux_6_14092021">Hot Takes</a>
-              <span>Création d'API REST<br></span>
-            </div>
-            <div class="chouette">
-              <a href="https://github.com/Cpasklaire/CleaLeRoux_4_19072021">La chouette agence</a>
-              <span>Optimisation un site web existant</span>
-            </div>
-
-        </div>
+    <section class="presentation">
+      <img class="photo" src="public/css/image/PHP (2).png" alt="">
+      <h2>CerberCorp par Cléa Le Roux</h2>
+      <p>Inter quos Paulus eminebat notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret ausos conspirasse Magnentio, cum reniti non possent, iussa licentius supergressus fluminis modo fortunis conplurium sese repentinus infudit et ferebatur per strages multiplices ac ruinas, vinculis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet multa consarcinando a veritate longe discreta. unde admissum est facinus impium, quod Constanti tempus nota inusserat sempiterna. <br> </p>
+      <img class="compétences" src="public/css/image/PHP (3).png" alt="">
+      <p>Quam ob rem circumspecta cautela observatum est deinceps et cum edita montium petere coeperint grassatores, loci iniquitati milites cedunt. ubi autem in planitie potuerint reperiri, quod contingit adsidue, nec exsertare lacertos nec crispare permissi tela, quae vehunt bina vel terna, pecudum ritu inertium trucidantur. <br>Haec et huius modi quaedam innumerabilia ultrix facinorum impiorum bonorumque praemiatrix aliquotiens operatur Adrastia atque utinam semper quam vocabulo duplici etiam Nemesim appellamus: ius quoddam sublime numinis efficacis, humanarum mentium opinione lunari circulo superpositum, vel ut definiunt alii, substantialis tutela generali potentia partilibus praesidens fatis, quam theologi veteres fingentes Iustitiae filiam ex abdita quadam aeternitate tradunt omnia despectare terrena.</p>
+      
     </section>
+
+    <section class="nouveau">
+      <h2>Derniéres créations</h2>
+      <div class="projet">
+        <article>
+          <h3></h3>
+          <img src="" alt="">
+        </article>
+        <article>
+          <h3></h3>
+          <img src="" alt="">
+        </article>
+        <article>
+          <h3></h3>
+          <img src="" alt="">
+        </article>
+      </div>
+    </section>
+
   </body>
 </html>
