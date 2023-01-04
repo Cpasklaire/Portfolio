@@ -1,6 +1,6 @@
 .presentation {
     padding: 3%;
-    background: $couleur-fondfonce;
+    background: black;
     padding-bottom: 10%;
     h2 {
         font-size: 3em;
@@ -16,5 +16,51 @@
         border: solid #A1CDF1;
         width: 30%;
         float: left;
+    }
+}
+.nouveau {
+    background: url("/./public/css/image/attractive.jpg");
+    padding: 3%;
+    background-size: cover;
+    
+    h2 {
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+    .projet {
+        padding: 3%;
+        background: rgba(0, 0, 0, 0.9);
+        display: flex;
+        justify-content: space-around;
+        border-radius: 50px;
+        border: #A1CDF1 solid 2px;
+        article {
+            width: 30%;
+            h3 {
+                font-size: 2em;
+            }
+            img {
+                width: 90%;
+                border-radius: 100%;
+            }
+        }
+    }
+}
+.contact {
+    background: black;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+    p {
+    color: $couleur-titreclaire;
+    }
+    a {
+        padding: 3%;
+        font-size: 2em;
     }
 }

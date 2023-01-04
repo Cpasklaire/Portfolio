@@ -16,12 +16,14 @@ $couleur-fondclaire: #586AE2;
 $couleur-fondfonce: #2A2356; 
 $couleur-ombre: rgb(129, 129, 129);
 $degrade: linear-gradient(90deg, $couleur-titreclaire, $couleur-fondfonce);
+$antidegrade: linear-gradient(90deg, $couleur-fondfonce, $couleur-titreclaire);
 
 *
 {
   font-family: $font-texte;
   color: $couleur-texte;
 }
+
 h1, h2, h3 {
     font-family: $font-titre;
     color: $couleur-titrefonce;  

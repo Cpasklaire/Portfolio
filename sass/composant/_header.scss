@@ -7,11 +7,22 @@ header {
   .esprit{
     display: flex;
     align-items: center;
+    text-decoration: none;
     img {
       width: 6%;
     }
     h1 {
       font-size: 4em;
     }
+  }
+}
+footer {
+  background: $antidegrade;
+  padding: 1%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  img {
+    width: 6%;
   }
 }

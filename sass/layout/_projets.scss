@@ -1,0 +1,219 @@
+.pro {
+    padding: 3%;
+    padding-top: 1%;
+    background: black;
+    a {
+        text-decoration: none;
+    }
+    h2 {
+        font-size: 3em;
+        background: url("/./public/css/image/PHP (4).png");
+        background-size: contain;
+        padding: 3%;
+        background-repeat: no-repeat;
+    }
+    .fermer {
+        margin-left: 90%;
+    }
+    .article {
+        display: flex;
+        justify-content: center;
+        article {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            h3 {
+                font-size: 2em;
+                padding: 3%;
+            }
+            .details {
+                display: flex;
+                justify-content: space-between;
+                img {
+                    border-radius: 100px;
+                    width: 700px;
+                    margin: 3%;
+                    border: solid 5px ;
+                }
+                .decription {
+                    margin: 3%;
+                    p {
+                        border-top: solid 5px;
+                        border-bottom: solid 5px;
+                        padding: 3%;
+                    }
+                    h4 {
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                    }
+                    ul {
+                        margin-bottom: 10%;
+                    }
+                    a {
+                        padding-top: 3%;
+                        border-top: solid 5px;
+                    }
+                }
+            }
+        }
+    }
+    #commande {
+    height: 0;
+    overflow: hidden;
+    transition: height 1.5s;
+    } 
+    #commande:target {
+        height: 700px;
+    }
+}
+
+.devphp {
+    padding: 3%;
+    padding-top: 1%;
+    background: $couleur-fondfonce;
+    a {
+        text-decoration: none;
+    }
+    h2 {
+        font-size: 2.5em;
+        background: url("/./public/css/image/PHP (4).png");
+        background-size: contain;
+        padding: 3%;
+        background-repeat: no-repeat;
+    }
+    .fermer {
+        margin-left: 90%;
+    }
+    .article {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        article {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            width: 30%;
+            h3 {
+                font-size: 2em;
+                padding: 3%;
+            }
+            .details {
+                img {
+                    border-radius: 100px;
+                    width: 95%;
+                    height: 300px;
+                    margin: 3%;
+                    border: solid 5px;
+                }
+                .decription {
+                    margin: 3%;
+                    p {
+                        border-top: solid 5px;
+                        border-bottom: solid 5px;
+                        padding: 3%;
+                    }
+                    h4 {
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                    }
+                    ul {
+                        margin-bottom: 10%;
+                        li {
+                            font-size: 0.7em;
+                        }
+                    }
+                    a {
+                        padding-top: 3%;
+                        border-top: solid 5px;
+                    }
+                }
+            }
+        }
+    }
+    #devphp {
+    height: 0;
+    overflow: hidden;
+    transition: height 1.5s;
+    } 
+    #devphp:target {
+        height: 1800px;
+    }
+}
+
+.devweb {
+    padding: 3%;
+    padding-top: 1%;
+    background: black;
+    a {
+        text-decoration: none;
+    }
+    h2 {
+        font-size: 2.5em;
+        background: url("/./public/css/image/PHP (4).png");
+        background-size: contain;
+        padding: 3%;
+        background-repeat: no-repeat;
+    }
+    .fermer {
+        margin-left: 90%;
+    }
+    .article {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        article {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            width: 30%;
+            h3 {
+                font-size: 2em;
+                padding: 3%;
+            }
+            .details {
+                img {
+                    border-radius: 100px;
+                    width: 95%;
+                    height: 300px;
+                    margin: 3%;
+                    border: solid 5px;
+                }
+                .decription {
+                    margin: 3%;
+                    p {
+                        border-top: solid 5px;
+                        border-bottom: solid 5px;
+                        padding: 3%;
+                    }
+                    h4 {
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                    }
+                    ul {
+                        margin-bottom: 10%;
+                        li {
+                            font-size: 0.7em;
+                        }
+                    }
+                    a {
+                        padding-top: 3%;
+                        border-top: solid 5px;
+                    }
+                }
+            }
+        }
+    }
+    #devweb {
+    height: 0;
+    overflow: hidden;
+    transition: height 1.5s;
+    } 
+    #devweb:target {
+        height: 1700px;
+    }
+}
