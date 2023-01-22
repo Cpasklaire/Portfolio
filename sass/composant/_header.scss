@@ -1,5 +1,8 @@
 header {
-  background: $degrade;
+  background-image: url("../image/composant/header.png"), $degrade;
+  background-repeat: no-repeat;
+  background-position: 16% center ;
+  background-size: contain;
   padding: 3%;
   display: flex;
   justify-content: space-between;
@@ -9,7 +12,7 @@ header {
     align-items: center;
     text-decoration: none;
     img {
-      width: 6%;
+      width: 20%;
     }
     h1 {
       font-size: 4em;
@@ -23,7 +26,4 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  img {
-    width: 6%;
-  }
 }

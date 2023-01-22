@@ -36,6 +36,13 @@
         border: #A1CDF1 solid 2px;
         article {
             width: 30%;
+            
+            a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
             h3 {
                 font-size: 2em;
             }
@@ -44,12 +51,31 @@
                 height: 300px;
                 border-radius: 100%;
             }
+        }            
+    }        
+    h4 {
+        margin-top: 4%;
+        margin-bottom: 2%;
+        
+        a{
+            margin-left: 60%;
+            background: rgba(0, 0, 0, 0.9);
+            //background-size: contain;
+            padding: 3%;
+            //background-repeat: no-repeat;
+            border: $couleur-texte solid 3px;
+            border-radius: 15px;
+            font-size: 2em;
+
         }
     }
 }
 .contact {
-    background: black;
-    padding: 3%;
+    background: url(../image/composant/cadre.png),black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center ;
+    padding: 4%;
     display: flex;
     align-items: center;
     flex-direction: column;
