@@ -6,6 +6,9 @@
         font-size: 3em;
         margin-bottom: 1%;
     }
+    p {
+        line-height: 1.5em;
+    }
     .photo {
         float: right;
         width: 20%;
@@ -45,8 +48,10 @@
             }
             h3 {
                 font-size: 2em;
+                margin-bottom: 2%;
             }
             img {
+                max-width: 300px;
                 width: 90%;
                 height: 300px;
                 border-radius: 100%;
